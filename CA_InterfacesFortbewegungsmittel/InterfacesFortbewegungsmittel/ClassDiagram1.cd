@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAQAAAAUAAA=</HashCode>
+      <FileName>Amphibienfahrzeug.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel">
+    <Position X="2.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQQAAAEAAAAAAAAgAAAAIgAAAAAAEAAAAA=</HashCode>
+      <FileName>Fortbewegungsmittel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Landfahrzeug">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAAAAA=</HashCode>
+      <FileName>Landfahrzeug.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAABAAAAAAAgAAAQAAAAUAAA=</HashCode>
+      <FileName>Luftfahrzeug.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Program">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Schiff">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAQAAA=</HashCode>
+      <FileName>Schiff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg.Fortbewegungsmedium" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Verkehrsweg.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verkehrsweg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CD_Lehre.InterfacesFortbewegungsmittel.IFahren">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>IFahren.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CD_Lehre.InterfacesFortbewegungsmittel.IFliegen">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>IFliegen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CD_Lehre.InterfacesFortbewegungsmittel.ISchwimmen">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ISchwimmen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InterfacesFortbewegungsmittel</name>
+    </assembly>
+    <members>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug">
+            <summary>
+            Einfache Klasse Landfahrzeug, von Fortbewegungsmittel abgeleitet, mit Interfaces IFahren und ISchwimmen.
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.medium">
+            <summary>
+            Medium: Wasser oder Land
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.#ctor(System.Int32)">
+            <summary>
+            Standardkonstruktor
+            </summary>
+            <param name="beförderungskapazität">Beförderungskapazität</param>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.Medium">
+            <summary>
+            get-/set-Eigenschaft für das Medium: per Default Wasser, aber auch Land möglich
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.Fahren">
+            <summary>
+            Ausgabe der Art und der spezifischen Geschwindigkeit
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.Schwimmen">
+            <summary>
+            Ausgabe der Art und der spezifischen Geschwindigkeit
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.Geschwindigkeit">
+            <summary>
+            set-/get-Eigenschaft für die Geschwindigkeit in [sm/h]
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Amphibienfahrzeug.Ausgeben">
+            <summary>
+            Ausgabe der aktuellen Eigenschaften und der Fortbewegungsart
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel">
+            <summary>
+            <para>Die Klasse Fortbewegungsmittel bildet eine abstrakte Basisklasse, von der
+            Landfahrzeuge, Schiffe, Amphibienfahrzeuge und Luftfahrzeuge abgeleitet werden.</para>
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.beförderungskapazität">
+            <summary>
+            Beförderungskapazität für Personen: Minimum 1 Person
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.geschwindigkeitAktuell">
+            <summary>
+            Aktuelle Geschwindigkeit in km/h
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.art">
+            <summary>
+            Art des Fahrzeuges
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.#ctor(System.Int32)">
+            <summary>
+            Standardkonstruktor
+            </summary>
+            <param name="beförderungskapazität">Beförderungskapazität</param>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.Beförderungskapazität">
+            <summary>
+            get-/set-Eigenschaft für die Beförderungskapazität
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.GeschwindigkeitAktuell">
+            <summary>
+            get-/set-Eigenschaft für die aktuelle Geschwindigkeit
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.Art">
+            <summary>
+            get-Eigenschaft für die Art
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.Ausgeben">
+            <summary>
+            Ausgabe der Eigenschaften
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Fortbewegungsmittel.ToString">
+            <summary>
+            Überschriebene ToString()-Methode
+            </summary>
+            <returns>Ausgabetext</returns>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.IFahren">
+            <summary>
+            Zusammenfassung für IFahren.
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.IFahren.Fahren">
+            <summary>
+            beschreibt Fahrvorgänge
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.IFliegen">
+            <summary>
+            Zusammenfassung für IFliegen.
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.IFliegen.Fliegen">
+            <summary>
+            beschreibt Flugvorgänge
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.IFliegen.Geschwindigkeit">
+            <summary>
+            Get-/Set-Eigenschaft für die Geschwindigkeit
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.ISchwimmen">
+            <summary>
+            Zusammenfassung für ISchwimmen.
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.ISchwimmen.Schwimmen">
+            <summary>
+            beschreibt Schwimmvorgänge
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.ISchwimmen.Geschwindigkeit">
+            <summary>
+            Get-/Set-Eigenschaft für die Geschwindigkeit
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Landfahrzeug">
+            <summary>
+            Einfache Klasse Landfahrzeug, von Fortbewegungsmittel abgeleitet, mit Interface IFahren.
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Landfahrzeug.#ctor(System.Int32)">
+            <summary>
+            Standardkonstruktor
+            </summary>
+            <param name="beförderungskapazität">Beförderungskapazität</param>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Landfahrzeug.Fahren">
+            <summary>
+            Ausgabe der Art und der spezifischen Geschwindigkeit
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Landfahrzeug.Ausgeben">
+            <summary>
+            Ausgabe der aktuellen Eigenschaften und der Fortbewegungsart
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug">
+            <summary>
+            Einfache Klasse Luftfahrzeug, von Fortbewegungsmittel abgeleitet, mit Interfaces IFahren und IFliegen.
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.medium">
+            <summary>
+            Medium: Luft oder Land
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.#ctor(System.Int32)">
+            <summary>
+            Standardkonstruktor
+            </summary>
+            <param name="beförderungskapazität">Beförderungskapazität</param>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.Medium">
+            <summary>
+            get-/set-Eigenschaft für das Fortbewegungsmedium: per Default Luft, Land auch möglich
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.Fahren">
+            <summary>
+            Ausgabe der Art und der spezifischen Geschwindigkeit
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.Fliegen">
+            <summary>
+            Ausgabe der Art und der spezifischen Geschwindigkeit
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.Geschwindigkeit">
+            <summary>
+            set-/get-Eigenschaft für die Geschwindigkeit in [Mach]
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Luftfahrzeug.Ausgeben">
+            <summary>
+            Ausgabe der aktuellen Eigenschaften und der Fortbewegungsart
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Program">
+            <summary>
+            Testtreiber zum Thema Interfaces anhand einer Basisklasse Fortbewegungsmittel und
+            daraus abgeleiteten Klassen Landfahrzeug, Amphibienfahrzeug, Schiff und Luftfahrzeug.
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Program.Main">
+            <summary>
+            Der Haupteinstiegspunkt für die Anwendung.
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Schiff">
+            <summary>
+            Einfache Klasse Schiff, von Fortbewegungsmittel abgeleitet, mit Interface ISchwimmen.
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Schiff.#ctor(System.Int32)">
+            <summary>
+            Standardkonstruktor
+            </summary>
+            <param name="beförderungskapazität">Beförderungskapazität</param>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Schiff.Schwimmen">
+            <summary>
+            Ausgabe der Art und der spezifischen Geschwindigkeit
+            </summary>
+        </member>
+        <member name="P:CD_Lehre.InterfacesFortbewegungsmittel.Schiff.Geschwindigkeit">
+            <summary>
+            set-/get-Eigenschaft für die Geschwindigkeit in [sm/h]
+            </summary>
+        </member>
+        <member name="M:CD_Lehre.InterfacesFortbewegungsmittel.Schiff.Ausgeben">
+            <summary>
+            Ausgabe der aktuellen Eigenschaften und der Fortbewegungsart
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg">
+            <summary>
+            Aufzählungstyp für den Verkehrsweg.
+            </summary>
+        </member>
+        <member name="T:CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg.Fortbewegungsmedium">
+            <summary>
+            Beschreibt das Medium, in bzw. auf dem sich das Fahrzeug bewegt
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg.Fortbewegungsmedium.Wasser">
+            <summary>
+            für Schiffe und Amphibienfahrzeuge
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg.Fortbewegungsmedium.Land">
+            <summary>
+            für Amphibienfahrzeuge, Landfahrzeuge und Luftzeuge
+            </summary>
+        </member>
+        <member name="F:CD_Lehre.InterfacesFortbewegungsmittel.Verkehrsweg.Fortbewegungsmedium.Luft">
+            <summary>
+            für Luftfahrzeuge
+            </summary>
+        </member>
+    </members>
+</doc>

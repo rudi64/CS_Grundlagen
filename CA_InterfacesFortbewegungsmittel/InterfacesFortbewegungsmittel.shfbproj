@@ -1,0 +1,59 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <!-- The configuration and platform will be used to determine which
+         assemblies to include from solution and project documentation
+         sources -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b9f19fb0-9e7a-45c5-9cde-50f16dc96078}</ProjectGuid>
+    <SHFBSchemaVersion>1.9.0.0</SHFBSchemaVersion>
+    <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual
+         Studio adds them anyway -->
+    <AssemblyName>Documentation</AssemblyName>
+    <RootNamespace>Documentation</RootNamespace>
+    <Name>Documentation</Name>
+    <!-- SHFB properties -->
+    <OutputPath>.\doc\</OutputPath>
+    <HtmlHelpName>InterfacesFortbewegungsmittel</HtmlHelpName>
+    <ProjectSummary>
+    </ProjectSummary>
+    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, Namespace, TypeParameter</MissingTags>
+    <VisibleItems>Internals, Privates, Protected, SealedProtected</VisibleItems>
+    <HtmlHelp1xCompilerPath>
+    </HtmlHelp1xCompilerPath>
+    <HtmlHelp2xCompilerPath>
+    </HtmlHelp2xCompilerPath>
+    <SandcastlePath>
+    </SandcastlePath>
+    <WorkingPath>
+    </WorkingPath>
+    <BuildLogFile>
+    </BuildLogFile>
+    <FrameworkVersion>4.0.30319</FrameworkVersion>
+    <HelpTitle>InterfacesFortbewegungsmittel</HelpTitle>
+    <Language>de-DE</Language>
+    <CopyrightHref>http://info.fh-wels.at/skripten/cderndorfer/CD_Programme_2010_Copyright.txt</CopyrightHref>
+    <CopyrightText>Copyright</CopyrightText>
+    <FeedbackEMailAddress>c.derndorfer%40fh-wels.at</FeedbackEMailAddress>
+    <FeedbackEMailLinkText>Dr. Clemens Derndorfer</FeedbackEMailLinkText>
+    <HeaderText>InterfacesFortbewegungsmittel</HeaderText>
+    <FooterText>mit Sandcastle Help File Builder GUI dokumentiert</FooterText>
+    <PresentationStyle>vs2005</PresentationStyle>
+    <SyntaxFilters>CSharp</SyntaxFilters>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="InterfacesFortbewegungsmittel\bin\Debug\InterfacesFortbewegungsmittel.exe" />
+<DocumentationSource sourceFile="InterfacesFortbewegungsmittel\bin\Debug\InterfacesFortbewegungsmittel.xml" /></DocumentationSources>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="(global)" isDocumented="False" />
+<NamespaceSummaryItem name="CD_Lehre.InterfacesFortbewegungsmittel" isDocumented="True">Musterlösung zum C# Skriptum</NamespaceSummaryItem></NamespaceSummaries>
+  </PropertyGroup>
+  <!-- There are no properties for these two groups but they need to appear in
+       order for Visual Studio to perform the build. -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <!-- Import the SHFB build targets -->
+  <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
+</Project>
